@@ -17,8 +17,6 @@ for (int i = 0; i < numberOfExpenses; i++)
 
 Console.WriteLine("O total das despesas é: " + totalExpenses);
 
-int GetNumberOfExpenses()
-{ return 5; }
+int GetNumberOfExpenses() => 5;
 
-int GetExpenseCostFromUser()
-{ return 3; }
+int GetExpenseCostFromUser() => 3;
